@@ -1,24 +1,8 @@
 
-import CriseExistencial.GUI.JanelaPrincipal;
 import javax.swing.SwingUtilities;
 
-/**
- * Classe Main Principal
- * Ponto de entrada da aplicação - Sistema de Crise Existencial
- * 
- * Demonstra os conceitos de:
- * - HERANÇA: Paciente, Psicologo, Psiquiatra herdam de Pessoa
- * - ENCAPULAMENTO: Uso de getters e setters privados
- * - POLIMORFISMO: Sobrescrita de métodos abstratos e concretos
- * - TRATAMENTO DE EXCEÇÕES: Try-catch e throws
- * - GUI (Graphical User Interface): JFrame, JPanel, JButton, etc.
- */
 public class Main {
-    
-    /**
-     * Método main - Inicializa a aplicação
-     * Executa a interface gráfica de forma thread-safe usando SwingUtilities
-     */
+
     public static void main(String[] args) {
         // Thread-safe execution para GUI do Swing
         SwingUtilities.invokeLater(new Runnable() {
